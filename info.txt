@@ -1,0 +1,20 @@
+#1
+Rocky Mountain Ruby Conference
+url-http://www.rockymtnruby.com/
+September 23-25, 2015
+Boulder, CO
+@https://twitter.com/rockymtnruby
+
+
+#2
+Keep Ruby Weird
+url-http://keeprubyweird.com/
+October 23,2015 Austin, Texas
+@https://twitter.com/keeprubyweird
+
+#3
+RubyConf
+url-http://rubyconf.org/
+November 15-17, 2015
+San Antonio, TX
+@https://twitter.com/rubyconf

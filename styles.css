@@ -1,0 +1,245 @@
+.navbar {
+  background-color: transparent;
+  border: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.navbar-brand {
+  line-height: 40px;
+  position: inherit;
+  bottom: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-top: -18px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: red;
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+.navbar-default .navbar-brand {
+    color: red;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+
+.bottom {
+  padding-bottom: 0px;
+  line-height: 40px;
+}
+
+.map {
+  background-color: black;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  background-image: url("media/rubyhere.map.png");
+}
+
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
+
+.donate {
+  position: relative;
+  z-index: 1;
+  top: 20%;
+  text-align: center;
+  color: #fff;
+}
+
+.donate h2 {
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 3%;
+  width: 10%;
+  margin: auto;
+  font-size: 2vmax;
+  padding: 0.5%;
+  background-color: rgba(255,255,255,0.3);
+  font-weight: 200;
+  margin-top: 2%;
+}
+
+.donate h2:hover {
+  transform: scale(1.1);
+}
+
+.donate a:hover {
+  text-decoration: none;
+}
+
+.links {
+  background-color: rgba(255,0,0,0.3);
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  padding-top: 1.5%;
+
+}
+
+.links a {
+  padding: 0 2% 0 2%;
+  color: #fff;
+  font-size: 2vmax;
+  font-weight: 200;
+}
+
+.links a:hover {
+ text-decoration: none;
+ color: black;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 110%;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 220%;
+}
+
+.container3 {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 330%;
+}
+
+.col-md-5 {
+  padding-left: 0px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.height1 {
+  height: 53%;
+}
+
+.height2 {
+  height: 20%;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content h4 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.content p {
+  font-size: 1em;
+}
+
+.details {
+  margin-top: 1%;
+}
+
+.details h4 {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 1vmax;
+}
+
+.details h5 {
+  text-align: center;
+  font-size: 1.2vmax;
+}
+
+.details p {
+  text-align: center;
+  font-size: 1.2vmax;
+}
+
+.details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.glyphicon {
+  padding-right: 10%;
+}
+
+.details a {
+  color: rgba(255, 0, 0, 0.7);
+  font-size: 2.75vmin;
+}
+
+.details a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.rockylogo {
+  padding-top: 1%;
+  background-color: rgba(255, 0, 0, 0.5);;
+}
+
+.rockylogo img {
+  width: 100%;
+  height: 90%;
+}
+
+.austinlogo {
+  padding-top: 1%;
+  background-color: rgba(255, 0, 0, 0.5);;
+}
+
+.austinlogo img {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  padding-left: 30%;
+}
